@@ -1,11 +1,11 @@
-from flask import Flask, jsonify
+from flask import Flask, send_from_directory
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return 'Welcome to flights!'
+    return send_from_directory('static','index.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
