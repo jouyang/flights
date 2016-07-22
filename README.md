@@ -1,6 +1,6 @@
 ##Prerequisites:
 1. Install Python
-  
+
   https://www.python.org/downloads/
 2. Install pip
 
@@ -10,17 +10,20 @@
 
   https://virtualenv.pypa.io/en/stable/installation/
 
+4. Install node and npm
+
+  https://nodejs.org/en/download/current/
 ##Getting Started for local server
 
 1. Set up virtual env
-  
+
   ```
   virtualenv env
   ```
 2. Launch virtual env
 
   (OSX) `source env/bin/activate`
-  
+
   (Windows) `\env\Scripts\activate`
 
 3. Install requirements
