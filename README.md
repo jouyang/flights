@@ -13,6 +13,7 @@
 4. Install node and npm
 
   https://nodejs.org/en/download/current/
+
 ##Getting Started for local server
 
 1. Set up virtual env
