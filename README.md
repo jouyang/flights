@@ -1,40 +1,37 @@
-##Prerequisites:
-1. Install Python
-
-  https://www.python.org/downloads/
-2. Install pip
-
-  https://pip.pypa.io/en/stable/installing/
-
-3. Install virtualenv
-
-  https://virtualenv.pypa.io/en/stable/installation/
-
-4. Install node and npm
+##Getting Started for local server
+1. Install node and npm
 
   https://nodejs.org/en/download/current/
 
-##Getting Started for local server
+2. Install git
 
-1. Set up virtual env
+  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-  ```
-  virtualenv env
-  ```
-2. Launch virtual env
+3. Clone repository
 
-  (OSX) `source env/bin/activate`
+  `git clone git@github.com:jouyang/flights.git`
 
-  (Windows) `\env\Scripts\activate`
+4. Go into repository
 
-3. Install requirements
+  `cd flights`
 
-  `pip install -r requirements.txt`
+5. Install requirements
 
-4. Launch server
+  `npm install`
 
-  `python app.py`
+6. Launch server
 
-5. Open in browser
+  `npm run s`
 
-  `http://127.0.0.1:5000/`
+7. Open in browser
+
+  `http://127.0.0.1:8080/`
+
+##Local Development
+
+###To start babel build daemon for backend sources
+
+`npm run watch`
+
+##To start webpack build daemon for frontend sources
+`npm run web_watch`
