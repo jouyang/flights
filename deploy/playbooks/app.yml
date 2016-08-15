@@ -1,6 +1,7 @@
 ---
 - include: init.yml
 - hosts: app
+
   roles:
     - { role: williamyeh.nodejs, nodejs_version: 6.3.1 }
 

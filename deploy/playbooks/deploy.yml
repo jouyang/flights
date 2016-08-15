@@ -12,11 +12,11 @@
 
     - name: Start app
       become: yes
-      become_user: web
+      become_user: "{{web_user}}"
       command: pm2 start {{project_root}}/{{project_name}}.json
       ignore_errors: yes
 
     - name: Save pm2 process
       become: yes
-      become_user: web
+      become_user: "{{web_user}}"
       command: pm2 save
