@@ -1,0 +1,13 @@
+---
+web_user: jouyang
+project_name: flights
+project_root: /var/www
+project_repo: git@github.com:jouyang/flights.git
+project_script: build/app.js
+
+# node script environments
+script_env:
+  NODE_ENV: production
+
+# nginx
+server_name: 107.170.230.178

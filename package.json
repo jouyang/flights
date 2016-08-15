@@ -1,0 +1,20 @@
+{
+  "name": "flights",
+  "version": "1.0.0",
+  "description": "Find flights",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jouyang/flights.git"
+  },
+  "author": "Jeffrey Ouyang",
+  "bugs": {
+    "url": "https://github.com/jouyang/flights/issues"
+  },
+  "homepage": "https://github.com/jouyang/flights#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

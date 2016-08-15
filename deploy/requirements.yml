@@ -1,0 +1,7 @@
+# Install node by version
+- name: williamyeh.nodejs
+  src: https://github.com/William-Yeh/ansible-nodejs
+
+#Install nginx
+- name: ansible-role-nginx
+  src: https://github.com/jdauphant/ansible-role-nginx

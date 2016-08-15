@@ -1,0 +1,25 @@
+---
+- include: init.yml
+- hosts: app
+  roles:
+    - { role: williamyeh.nodejs, nodejs_version: 6.3.1 }
+
+  tasks:
+    - name: Install Packages
+      become: yes
+      become_method: sudo
+      apt: name={{ item }} update_cache=yes state=latest
+      with_items:
+        - git
+        - build-essential
+
+    - name: Install pm2
+      become: yes
+      become_method: sudo
+      npm: name=pm2 global=yes state=present production=yes
+
+    - name: Create project folder
+      file: path={{project_root}}/{{project_name}} group={{web_user}} owner={{web_user}} mode=6755 state=directory
+
+    - name: Add pm2 start script
+      template: src=templates/app.j2 dest={{project_root}}/{{project_name}}.json
