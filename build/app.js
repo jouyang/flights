@@ -1,6 +1,12 @@
-var http = require('http');
-http.createServer(function (req, res) {
-	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end('Hello World, Welcome to flights\n');
-}).listen(8080, '107.170.230.178');
-console.log('Server running at http://107.170.230.178:8080/');
+'use strict';
+
+require('babel-polyfill');
+
+var _server = require('./server');
+
+var _server2 = _interopRequireDefault(_server);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _server2.default)();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7Ozs7O0FBRUEiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdiYWJlbC1wb2x5ZmlsbCc7XG5pbXBvcnQgbWFrZVNlcnZlciBmcm9tICcuL3NlcnZlcic7XG5cbm1ha2VTZXJ2ZXIoKTtcbiJdfQ==
