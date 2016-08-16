@@ -1,3 +1,73 @@
 body {
   padding-top: 50px;
 }
+
+.flights-app-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.flights-app-container > .flights-app-type-selector {
+  width: 33%;
+}
+
+.flights-app-container > .flights-app-type-selector > label {
+  width: 70%;
+}
+
+.flights-app-container > .flights-app-class-selector {
+  width: 33%;
+}
+
+.flights-app-container > .flights-app-class-selector > button{
+  width: 60%;
+  margin-left: calc((100% - 60%) / 2);
+}
+
+.flights-app-container > .flights-app-passenger-amount-selector {
+  width: 34%;
+}
+
+.flights-app-container > .flights-app-passenger-amount-selector > button{
+  width: 55%;
+  margin-left: calc(100% - 55%);
+}
+
+.flights-app-container > .flights-app-nonstop-selector {
+  width: 100%;
+}
+
+.flights-app-container > .flights-app-nonstop-selector > button{
+  width: 15%;
+  margin-left: calc(100% - 15%);
+}
+
+.flights-app-container > .flights-app-airport-selector {
+  width: 25%;
+  flex-basis: 50%;
+}
+
+.flights-app-container > .flights-app-airport-selector#Destination{
+  width: 25%;
+  flex-basis: 48%;
+  margin-left: 20px;
+}
+
+.flights-app-container > .flights-app-date-selector {
+  width: 25%;
+  flex-basis: 25%;
+}
+
+.flights-app-container > .flights-app-date-selector#ReturnDate{
+  width: 25%;
+  flex-basis: 25%;
+  margin-left: 20px;
+}
+
+.flights-app-container > .flights-app-ticket-table{
+  margin-top: 30px;
+  width: 100%;
+  flex-basis: 100%;
+}
