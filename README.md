@@ -33,8 +33,8 @@
 
 `npm run watch`
 
-##To start webpack build daemon for frontend sources
+###To start webpack build daemon for frontend sources
 `npm run web_watch`
 
-##Before committing, run lint, flow and tests to check for errors
+###Before committing, run lint, flow and tests to check for errors
 `npm run check`
