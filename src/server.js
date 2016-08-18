@@ -1,8 +1,10 @@
+// @flow
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import Promise from 'bluebird';
 
-async function makeServer(silent = false): Promise<Object> {
+async function makeServer(silent:boolean = false): Promise<Object> {
   const app = express();
 
   app.use(bodyParser.json());

@@ -1,7 +1,8 @@
-import config from '../config';
+// @flow
+
 import {APP_ROOT} from '../general';
 
-const appRouter = (app) => {
+const appRouter = (app:Object) => {
   // load home page
   app.get('/', (req, res) => {
     res.sendFile('index.html', {root: APP_ROOT + '/public'});

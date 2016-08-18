@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 
 export default class FlightsNonStopSelector extends React.Component {

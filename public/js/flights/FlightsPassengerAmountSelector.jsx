@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 
 export default class FlightsPassengerAmountSelector extends React.Component {

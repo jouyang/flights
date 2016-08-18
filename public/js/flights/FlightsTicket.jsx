@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import FlightsTicketTimeline from './FlightsTicketTimeline.jsx';
 

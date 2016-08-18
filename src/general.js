@@ -3,7 +3,6 @@
 import config from './config';
 import path from 'path';
 
-// at playGo root directory
 const APP_ROOT = path.resolve(__dirname) + '/..';
 
 // logging code

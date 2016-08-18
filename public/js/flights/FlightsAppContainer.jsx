@@ -1,3 +1,6 @@
+/*
+ * @flow
+ */
 import React from 'react';
 import FlightsAirportSelector from './FlightsAirportSelector.jsx';
 import FlightsClassSelector from './FlightsClassSelector.jsx';
