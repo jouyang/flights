@@ -52,7 +52,7 @@ body {
 .flights-app-container > .flights-app-airport-selector#Destination{
   width: 25%;
   flex-basis: 48%;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .flights-app-container > .flights-app-date-selector {
@@ -63,7 +63,7 @@ body {
 .flights-app-container > .flights-app-date-selector#ReturnDate{
   width: 25%;
   flex-basis: 25%;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .flights-app-container > .flights-app-ticket-table{
